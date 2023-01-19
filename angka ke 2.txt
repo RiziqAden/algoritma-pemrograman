@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Masukan angka yang kamu sukai : ");
+		String angka = scanner.nextLine();
+		
+		float floatAngka = 0.0f;
+		
+		try {
+		    floatAngka = Float.parseFloat(angka);
+		}
+		catch(NumberFormatException nfe){
+		    System.out.println("Hola, kamu tidak memasukan angka float yang benar ");
+		}
+		    System.out.println("Angka fovaorit mu : " + floatAngka);
+		    
+		    scanner.close();
+	
+	}
+}

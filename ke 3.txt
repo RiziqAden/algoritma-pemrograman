@@ -1,0 +1,27 @@
+import java.io.*;
+
+public class Main
+{
+	public static void main(String[] args) throws IOException {
+	    BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
+	    
+	    int p,l,t,v;
+	    
+	    System.out.println("=== menghitung volume balok ===");
+	    
+	    System.out.println("masukan nilai p (panjang)");
+	    p = Integer.parseInt(input.readLine());
+	    
+	    System.out.println("masukan nilai l (lebar)");
+	    l = Integer.parseInt(input.readLine());
+	    
+	    System.out.println("masukan nilai t (tinggi)");
+	    t = Integer.parseInt(input.readLine());
+	    
+	    v = p * l * t;
+	    
+	    System.out.println("volume balok : "+ v);
+	    
+	    
+	}	
+}

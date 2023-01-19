@@ -1,0 +1,35 @@
+//member kartu sehat
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		String nama;
+		String alamat;
+		int umur ;
+		int nik;
+		
+		System.out.println("input data indonesia sehat");
+		System.out.println("masukan nama kamu : ");
+		nama = scanner.nextLine();
+		
+		System.out.println("masukan alamat kamu");
+		alamat = scanner.nextLine();
+		
+		System.out.println("masukan umur kamu");
+		umur = scanner.nextInt();
+		
+		System.out.println("masukan nik kamu");
+		nik = scanner.nextInt();
+		
+		System.out.println("\n================================================");
+		System.out.println("\n----------MEMBER KARTU SEHAT SUKABUMI-----------");
+		
+		System.out.println("nama kamu = "+ nama);
+		System.out.println("alamat kamu = "+ alamat);
+		System.out.println("umur kamu = "+ umur);
+		System.out.println("nik kamu = "+ nik);
+	}
+}
