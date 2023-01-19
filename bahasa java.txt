@@ -1,0 +1,306 @@
+public class Main {
+  public static void main(String[] args) {
+   System.out.println("LATIHAN EKSPRESI ARITMATIKA & OPERATOR ARITMATIKA");
+    
+   //System.out.println("\n == LUAS BANGUN DATAR ==");
+    
+   //System.out.println("\n 1. luas persegi");
+   //int s1 = 2;
+   //int s2 = 4;
+   //int LPersegi = s1 * s2;
+   //System.out.println(" LPersegi : s1* s2 = " + LPersegi);
+   
+   //System.out.println("\n 2. luas persegi panjang");
+   //int p = 3;
+   //int l = 9;
+   //int LPPanjang = p * l;
+   //System.out.println(" LPPanjang :p * l ="+LPPanjang);
+   
+   //System.out.println("\n 3. luas jajar genjang");
+   //int a1 = 4;
+   //int t1 = 3;
+   //int LJajargenjang = a1 * t1;
+   //System.out.println(" LJajargenjang : a1 * t1 ="+LJajargenjang);
+   
+   //System.out.println("\n 4. luas segitika");
+   //int a2 = 2;
+   //int t2 = 12;
+   //double LSegitiga = 1.0 / 2.0 * a2 * t2 ;
+   //System.out.println(" LSegitiga : 1.0 / 2.0 * a2 * t2 = " + LSegitiga);
+   
+   //System.out.println("\n 5. luas belah ketupat");
+   //int d1 = 4;
+   //int d2 = 8;
+   //double LBelahketupat = 1.0 / 2.0 * d1 * d2;
+   //System.out.println(" LBelahketupat : 1.0 / 2.0 * d1 * d2 = " + LBelahketupat);
+   
+   //System.out.println("\n 6. Luas Trapesium ");
+   //int a3 = 4;
+   //int b = 6; 
+   //int t3 = 3; 
+   //int LTrapesium = (a3 + b) / 2 * t3;
+   //System.out.println(" LTrapesium : (a3 + b) / 2 * t3 = " + LTrapesium);
+   
+   //System.out.println("\n 7. luas lingkaran ");
+   //int r1 = 7;
+   //int r2 = 7;
+   //double LLingkaran = 22.0 / 7.0 * r1 * r2;
+   //System.out.println(" LLingkaran : 22.0 / 7.0 * r1 * r2 = " + LLingkaran);
+   
+   //System.out.println(" === VOLUME BANGUN RUANG == ");
+   
+   //System.out.println("\n 1. Volume Kubus ");
+   //int s1 = 2;
+   //int s2 = 4;
+   //int s3 = 6;
+   //int Vkubus = s1 * s2 * s3;
+   //System.out.println(" Vkubus : s1 * s2 * s3 = " + Vkubus);
+   
+   //System.out.println("\n 2. Volume Balok");
+   //int p = 3;
+   //int l = 5;
+   //int t = 7;
+   //int Vbalok = p * l * t;
+   //System.out.println(" Vbalok : p * l * t = " + Vbalok);
+   
+   //System.out.println("\n 3. Volume prima segitiga");
+   //int LAlas = 8;
+   //int t1 = 8;
+   //int VPsegitiga = LAlas * t1;
+   //System.out.println(" VPsegitiga : LAlas * t1 = " + VPsegitiga );
+   
+   //System.out.println(" \n 4. Volume Tabung");
+   //int r1 = 7; 
+   //int r2 = 4;
+   //int t3 = 5;
+   //double VTabung = 22.0 / 7.0 * r1 * r2 * t3;
+   //System.out.println(" VTabung : 22.0 / 7.0 * r1 * r2 * t3 = " + VTabung);
+   
+   //System.out.println("\n 5. Volume Bola");
+   //int r3 = 3;
+   //int r4 = 4;
+   //int r5 = 7;
+   //double VBola = 4.0 / 3.0 * r3 * 22.0 / 7.0 * r4 * r5;
+   //System.out.println(" VBola : 4.0 / 3.0 * r3 * 22.0 / 7.0 * r4 * r5 = " + VBola);
+   
+   //System.out.println("\n 6. Volume Limas");
+   //int LAlas1 = 6;
+   //int t4 = 6; 
+   //double Vlimas = 1.0 / 3.0 * LAlas1 * t4;
+   //System.out.println(" Vlimas : 1.0 / 3.0 * LAlas1 * t4 = " + Vlimas);
+   
+   ////System.out.println(" === METODE MATEMATIKA di JAVA == ");
+   
+   //System.out.println("\n 1. Absolute = Mutlak");
+   //int nomor = -6;
+   //System.out.println(" Absolute = " + Math.abs(nomor));
+   
+   //System.out.println("\n 2. pow = pangkat");
+   //int nomor1 = 3;
+   //System.out.println(" Pow = " + Math.pow(nomor1, 3));
+   
+   //System.out.println("\n 3. sqrt = Kuadrat");
+   //int nomor2 = 64;
+   //System.out.println(" Pow = " + Math.sqrt(nomor2));
+   
+   //System.out.println("\n 4. Min = minimal");
+   //int angka1 = 2;
+   //int angka2 = 10;
+   //System.out.println(" Min = " + Math.min(angka1, angka2));
+   
+   //System.out.println("\n 5. Max = Mximal");
+   //int angka3 = 10;
+   //int angka4 = 25;
+   //System.out.println(" Max = " + Math.max(angka3, angka4));
+   
+   //System.out.println("\n 6. a. Round = dibulatkan kebawah");
+   //double angka5 = 5.4;
+   //System.out.println(" 	- dibulatkan ke bawah = " + Math.round(angka5));
+   
+   //System.out.println("\n 6. a. Round = dibulatkan keatas ");
+   //double angka6 = 5.7;
+   //System.out.println(" 	- dibulatkan ke atas = " + Math.round(angka6));
+   
+   //System.out.println(" LATIHAN EKSPESI & OPERASI RELASIONAL ");
+   
+   //boolean True = true;
+   //boolean False = false;
+   
+   //boolean b1 = (1 == 1);
+   //System.out.print("\n 1 == 1 : " + b1);
+   
+   //boolean b2 = (2 != 2);
+   //System.out.print("\n 2 != 2 : " + b2);
+   
+   //boolean b3 = (5 > 3);
+   //System.out.print("\n 5 > 2 : " + b3);
+   
+   //boolean b4 = (5 >= 5);
+   //System.out.print("\n 5 >= 5 : " + b4);
+   
+   //boolean b5 = (6 <= 8);
+   //System.out.print("\n 6 <= 8 : " + b5);
+   
+   //boolean b6 = (7 < 10);
+   //System.out.print("\n 5 < 5 : " + b6);
+   
+   //boolean b7 = (9 <= 9);
+   //System.out.print("\n 9 <= 9 : " + b7);
+   
+   //boolean b8 = (20 <= 15);
+   //System.out.print("\n 20 <= 15 : " + b8);
+   
+   
+   //System.out.println(" LATIHAN EKSPRESI STRING \n");
+   
+   //String kelas = "Regular Pagi";
+   
+   //System.out.println("Huruf Besar = " + kelas.toUpperCase());
+   //System.out.println("Huruf kecil = " + kelas.toLowerCase());
+   //System.out.println("Panjang Kalimat = " + kelas.length());
+   //System.out.println("Berisi nilai = " + kelas.contains("Pagi"));
+   //System.out.println("tidak Berisi nilai = " + kelas.contains("hai"));
+   //System.out.println("lokasi angka = " + kelas.charAt(3));
+   //System.out.println("lokasi huruf = " + kelas.indexOf("r"));
+   //System.out.println("lokasi Frasa = " + kelas.substring(8));
+   
+   
+   //System.out.println("OPERATOR UNARY \n");
+   
+   //System.out.println("Unary + dan -");
+   //int nomor = 1;
+   //System.out.println("- = " + (-nomor));
+   //System.out.println("+ = " + (+nomor));
+   
+   //System.out.println("\nUnary decrement dan increment");
+   //int angka = 5;
+   //angka++; //angka = angka + 1
+   //System.out.println("increment = " + angka);
+   
+   //int angka = 15;
+   //angka2--; //angka2 = angka2 - 1
+   //System.out.println("Decrement = " + angka2);
+   
+   //System.out.println("\nUnary prefix dan postfix");
+   //int a = 3;
+   //System.out.println("prefix = " + (++a)); //Prefix = di eksekusi dulu baru di tampilkan
+   
+   //int b = 3;
+   //System.out.println("postfix = " + b++); //posfix = di tampilkan dulu baru di eksekusi
+   
+   //System.out.println("hasil setelah di eksekusi = " + b);
+   
+   //System.out.println("\nUnary boolean dengan ! untuk negasi");
+   //boolean halo = true;
+   //System.out.println("benar = " + halo);
+   //System.out.println("salah = " + (!halo));
+   
+   
+   //System.out.println("OPERATOR ASSIGMENT \n");
+   
+   //int a = 1;
+   //a += 5;
+   //System.out.println("penambahan nilai a = " + a);
+   
+   
+   //int b = 50;
+   //b -= 10;
+   //System.out.println("pengurangan nilai b = " + b);
+   
+   //int c = 10;
+   //c *= 2;
+   //System.out.println("perkalian nilai c = " + c);
+   
+   //int d = 35;
+   //d /= 7;
+   //System.out.println("pembagian nilai d = " + d);
+   
+   //int e = 10;
+   //e %= 3;
+   //System.out.println("modulus nilai e = " + e);
+   
+   //System.out.println("OPERATOR LOGIKA \n");
+   
+   //boolean a,b,c;
+   
+   //System.out.println("=== OR (||) ===");
+   
+   //a = true;
+   //b = true;
+   //c = (a||b);
+   //System.out.println(a + " ||" + b + " = " + c);
+   
+   //a = true;
+   //b = false;
+   //c = (a||b);
+   //System.out.println(a + " ||" + b + " = " + c);
+   
+   //a = false;
+   //b = true;
+   //c = (a||b);
+   //System.out.println(a + "||" + b + " = " + c);
+   
+   //a = false;
+   //b = false;
+   //c = (a||b);
+   //System.out.println(a + "||" + b + " = " + c);
+   
+   
+   //System.out.println(" ==== AND (&&) ==== ");
+   //boolean a,b,c;
+   
+   //a = true;
+   //b = true;
+   //c = (a && b);
+   //System.out.println(a + "  && " + b + "  = " + c);
+   
+   //a = true;
+   //b = false;
+   //c = (a && b);
+   //System.out.println(a + "  && " + b + " = " + c);
+   
+   //a = false;
+   //b = true;
+   //c = (a && b);
+   //System.out.println(a + " && " + b + "  = " + c);
+   
+   //a = false;
+   //b = false;
+   //c = (a && b);
+   //System.out.println(a + " && " + b + " = " + c);
+   
+   System.out.println(" ==== XOR (^) ==== ");
+   boolean a,b,c;
+   
+   a = true;
+   b = true;
+   c = (a ^ b);
+   System.out.println(a + "  ^ " + b + "  = " + c);
+   
+   a = true;
+   b = false;
+   c = (a ^ b);
+   System.out.println(a + "  ^ " + b + " = " + c);
+   
+   a = false;
+   b = true;
+   c = (a ^ b);
+   System.out.println(a + " ^ " + b + "  = " + c);
+   
+   a = false;
+   b = false;
+   c = (a ^ b);
+   System.out.println(a + " ^ " + b + " = " + c);
+   
+   System.out.println("\n ==== NOT (!) ==== ");
+   
+   a = true;
+   b = !a;
+   System.out.println(a + "  ! " + b + "  = " + b);
+   
+   a = false;
+   b = !a;
+   System.out.println(a + " ^ " + b + " = " + b);
+   
+  }
+}
