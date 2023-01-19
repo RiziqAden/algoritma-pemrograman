@@ -1,0 +1,16 @@
+public class Main{
+    public static void main (String []args){
+        // Todo auto-generated method stud
+        double a = 2.0;
+        double t = 3.0;
+        System.out.println("alas : "+a+" cm "+"tinggi : "+t+" cm");
+        System.out.println("luas segitiga : alas x tinggi / 2 ");
+        System.out.println("luas segitiga : " +luasSegitiga(a,t)+" cm");
+    }
+    // membuat fungsi luasSegitiga()
+    static double luasSegitiga(double a, double t){
+        double l;
+        l = a*t/2;
+        return l ;
+    }
+}

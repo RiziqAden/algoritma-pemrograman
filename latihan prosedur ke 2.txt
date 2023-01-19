@@ -1,0 +1,20 @@
+public class Main
+{
+	public static void main(String[] args) {
+		MetodePoin(2255.7);
+		
+	}
+
+    public static void MetodePoin(double poin){
+        if (poin >= 202.5){
+            System.out.println("===poin yang keluar===");
+            System.out.println("poin : pertama ");
+        }else if (poin >= 122.4){
+            System.out.println("poin : kedua");
+        }else {
+            System.out.println("poin : ketiga");
+        }
+        
+    }
+
+}
